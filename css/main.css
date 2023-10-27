@@ -221,3 +221,31 @@ b {
     background: var(--yellow);
     transform: scale(1.2) rotate(-2deg);
 }
+
+.deadline {
+    background: var(--light-yellow);
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.deadline:hover {
+    background: var(--yellow);
+}
+
+.deadline__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.deadline__heading > h4 {
+    transform: none;
+    margin: 0;
+}
+
+.deadline__heading > span {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
